@@ -1,0 +1,44 @@
+body {
+  overflow: hidden;
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.custom-dots {
+  bottom: -30px !important;
+}
+
+.custom-dots li button:before {
+  color: white !important;
+  opacity: 0.5 !important;
+  font-size: 12px !important;
+}
+
+.custom-dots li.slick-active button:before {
+  opacity: 1 !important;
+}
+
+.slider-container .slick-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-container .slick-track {
+  display: flex !important;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .custom-dots {
+    bottom: 10px !important;
+  }
+
+  .custom-dots li {
+    margin: 0 2px !important;
+  }
+}
